@@ -1,0 +1,58 @@
+prefix: "&e&lS&6ky&e&lF&6lamme&.&4&lde "
+noperm: "%prefix% &cDu hast dafuer keine Rechte&7!"
+must_a_player: '%prefix% &cDu musst ein Spieler sein&7!'
+player_not_online: '%prefix% &cDer angegebene Spieler ist nicht online.'
+Automsg:
+  one: "&4&lX &7Du willst ein &4Kit &7mache einfach &8/&4kits &7und hole dir eins"
+  two: "%prefix% &7Wir Stellen gerade ein das man &8/&4umfrage &7machen kann!"
+  three: "%prefix% &7mache bei einem &5EVENT &7mit jeden &9Samstag &7um &418&7:&400 &7Uhr"
+Teamspeak-Domain: Ts.SkyFlamme.de
+command:
+  clear:
+    own: '%prefix% &aSein Inventar wurde geleert&7.'
+  day: '%prefix% &aEs ist nun &eTag&a.'
+  night: '%prefix% &aEs ist nun &eNacht&a.'
+  feed: "%prefix% &aDein Essen wurde aufgef\xfcllt."
+  heal: "%prefix% &aDein Leben wurde aufgef\xfcllt."
+  teamchat: "%prefix% &7[&4&lTC&7] &a%player% &8\xbb &9%msg%"
+  teamspeak: '%prefix% &7Du willst Reden oder Musik hoeren Joine auf&8: &4&l%teamspeak%.'
+  motd:
+    line1: '%prefix% &aDie MotD-Line-1 wurde geupdatet.'
+    line2: '%prefix% &aDie MotD-Line-2 wurde geupdatet.'
+  setinstantkill: '%prefix% &aDer InstantKill wurde geupdatet.'
+  setdamagehigh: '%prefix% &aDie DamageHigh wurde geupdatet.'
+  skull: '%prefix% &aDu hast den Kopf von &e%headowner% &abekommen.'
+  spawn: '%prefix% &aDer Teleportirungs-Vorgan wurde gestartet&7(&4&lNicht bewegen&7).'
+  coins: '%prefix% &aDie Coins von %player% wurden neugeladen.'
+  points: '%prefix% &aDie Points von %player% wurden neugeladen.'
+  kills: '%prefix% &aDie Kills von %player% wurden neugeladen.'
+  deaths: '%prefix% &aDie Tode von %player% wurden neugeladen.'
+  cmdwatch:
+    Disabled: "%prefix% &aDu bist nun im nicht mehr \xa76CmdWatch-Modus\xa77."
+    enabled: "%prefix% &aDu bist nun im \xa76CmdWatch-Modus\xa77."
+  setmobs:
+    Kits: '%prefix% &aDie Kits wurden gesetzt.'
+    Shop: '%prefix% &aDer Shop wurde gesetzt'
+    Cookies: '%prefix% &aDer Cookie-Shop wurde gesetzt'
+    Rewards: '%prefix% &aDie Rewards wurdn gesetzt'
+  fly:
+    enabled:
+      own: '%prefix% &aDu bist nun im &6Fly-Modus'
+      other: '%prefix% &a%player% ist nun im &6Fly-Modus'
+    Disabled:
+      own: '%prefix% &aDu bist nun nicht mehr im &6Fly-Modus'
+      other: '%prefix% &a%player% ist nun nicht mehr im &6vanish-Modus'
+  vanish:
+    enable:
+      own: '%prefix% &aDu bist nun im &6vanish-Modus'
+      other: '%prefix% &a%player% ist nun im &6vanish-Modus'
+    disable:
+      own: '%prefix% &aDu bist nun nicht mehr im &6vanish-Modus'
+      other: '%prefix% &a%player% ist nun nicht mehr im &6vanish-Modus'
+  gamemode:
+    own: '%prefix% &aDu bist nun im Gamemode: &6%gamemode%'
+    other: '%prefix% &a%player% ist nun im Gamemode: &6%gamemode%'
+  clearlag: '%prefix% &aEs wurden &calle &aauf dem Boden-Ligenden Items removed.'
+  wartung:
+    enable: '%prefix% &aWartungen wurden angestellt.'
+    disable: '%prefix% &aWartungen wurden ausgestelt.'
